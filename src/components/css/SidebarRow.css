@@ -1,0 +1,25 @@
+.sidebar__row{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    color:#b3b3b3;
+    transition: all 200ms ease-in;
+}
+
+.sidebar__row:hover{
+    color: white;
+}
+
+.sidebar__row p{
+    font-weight: 450;
+}
+
+.MuiSvgIcon-root{
+    font-size: 1.8rem;
+    margin-right: 10px;
+}
+
+.text{
+    margin: 5px 0px;
+}
+
