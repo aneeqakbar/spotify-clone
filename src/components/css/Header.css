@@ -1,7 +1,11 @@
 .main__header{
-    height: 50vh;
-    background-color: aqua;
+    height: 45vh;
+    /* background-color: aqua; */
     padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .profileTab{
@@ -9,7 +13,7 @@
     display:flex;
     align-items: center;
     background-color: rgb(22, 22, 22);
-    width: 16%;
+    width: 18%;
     overflow: hidden;
     white-space: nowrap;
     padding: 2px;
@@ -31,12 +35,16 @@
 .header__bottom{
     display: flex;
     align-items: flex-end;
+
+    margin-left: 30px;
+    margin-bottom: 10px;
 }
 
 .header__bottom > .img{
     width: 200px;
     height: 200px;
     background-color: red;
+    box-shadow: 0 4px 60px rgba(0,0,0,.5);
 }
 
 .playlist__Info{

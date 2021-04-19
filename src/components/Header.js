@@ -16,11 +16,11 @@ function Header() {
                 </div>
             </div>
             <div className="header__bottom">
-                {/* <img src="" alt="Thumbnail"/> */}
-                <div className="img">Thumbnail</div>
+                <img className="img" src="https://avatars.githubusercontent.com/u/75623135?v=4" alt="Thumbnail"/>
+                {/* <div className="img">Thumbnail</div> */}
                 <div className="playlist__Info">
                     <p>PlayList</p>
-                    <h2 className='heading'>Hip Hop</h2>
+                    <h2 className='heading'>Title</h2>
                     <p className='sub__heading'>Dont listen to them, they are maniac and will also make you!</p>
                     <p className='more__info'>Aneeq Akbar Khan</p>
                 </div>
